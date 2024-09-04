@@ -5,7 +5,7 @@ class Banco {
         this.transacoes = [];
     }
 
-    // Método 1: Depositar dinheiro
+    // Método 1: Depositar dinheiros
     depositar(valor) {
         this.saldo += valor;
         this.transacoes.push({ tipo: 'Depósito', valor });
